@@ -1,0 +1,22 @@
+{
+  "name": "samplecypress",
+  "version": "1.0.0",
+  "description": "My First Cypress Project",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "echo I am pretest",
+    "posttest": "echo I am posttest",
+    "test": "echo I am the test",
+    "hello": "echo Hello World",
+    "cy-test": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.9.0"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8"
+  }
+}
